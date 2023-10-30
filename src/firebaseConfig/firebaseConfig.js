@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
-import { getAuth,createUserWithEmailAndPassword , signInWithEmailAndPassword , onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+import { getAuth,createUserWithEmailAndPassword , signInWithEmailAndPassword ,signOut , onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
 import { getFirestore, setDoc , doc ,addDoc,collection} from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -29,5 +29,6 @@ export{
     signInWithEmailAndPassword,
     onAuthStateChanged,
     addDoc,
-    collection
+    collection,
+    signOut
 }

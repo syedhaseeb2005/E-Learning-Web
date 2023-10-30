@@ -16,7 +16,7 @@
     flex-direction: column;
 }
 .left p{
-    width: 70%;
+    width: 80%;
     color: #c5c5ca;
     font-weight: 600;
     font-size: 19px;
@@ -26,7 +26,7 @@
     font-size: 4rem;
 }
 .learn-btn{
-    width: 15%;
+    width: 20%;
     padding: 10px;
     margin-top: 1%;
     display: flex;
@@ -36,13 +36,14 @@
     background-color: #fea702;
     color: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 .icon{
     color: #fff;
 
 }
 .right{
-    padding: 20px 40px 0 0;
+    padding: 20px 100px 0 0;
 }
 .right img{
     object-fit: cover;

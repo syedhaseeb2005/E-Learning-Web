@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.LoginInput{
+    width: 100%;
+    padding: 20px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1em;
+    background-color: #333;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.LoginWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    text-align: center;
+}
+.LoginBox{
+    /* position: absolute; */
+	width: 450px;
+    background: #222;  
+	z-index: 1000;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 0 auto;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(0,0,0,9);
+    row-gap: 20px;
+}
+.Button:active{
+    opacity: 0.6;
+}
+.LoginBox h1{
+    font-size: 2em;
+	color: #0f0;
+	text-transform: uppercase;
+}

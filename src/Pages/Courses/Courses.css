@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.coursecontainer{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: hsla(219,48%,8%,1);
+    flex-direction: column;
+}
+.wrappers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    align-items: center;
+    grid-gap: 20px;
+    /* height: 250vh; */
+    /* column-gap: 20px; */
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: contain;
+    width: 230px;
+    height: 170px;
+    border-radius: 20px; 
+}
+.course {
+    background-color: #151C28;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0/6%);
+    color: #fff;
+} 
+.enroll-btn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 6px 10px;
+    color : gold;
+    background: transparent;
+    border-radius: 9px;
+    border: 3px solid gold;
+    cursor: pointer;
+}
+.enroll-btn:active{
+    opacity: 0.6;
+}
+.searchInput{
+    padding: 7px 20px;
+    width: 35%;
+    outline: none;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    padding: 4px 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
